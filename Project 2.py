@@ -17,7 +17,7 @@ def convert_units(input_unit, output_unit, value):
   elif input_unit == 'kg' and output_unit == 'lb':    
     return value * 2.20462
   elif input_unit == 'lb' and output_unit == 'kg':    
-     return value / 2.20462
+     return value / 2.20463
      
   else:    
      raise ValueError('Invalid unit conversion')
